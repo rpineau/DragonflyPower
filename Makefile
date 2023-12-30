@@ -8,7 +8,7 @@ RM = rm -f
 STRIP = strip
 TARGET_LIB = libDragonflyPower.so
 
-SRCS = main.cpp DragonflyPower.cpp x2focuser.cpp
+SRCS = main.cpp DragonflyPower.cpp x2powercontrol.cpp
 OBJS = $(SRCS:.cpp=.o)
 
 .PHONY: all
